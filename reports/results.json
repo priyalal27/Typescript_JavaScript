@@ -1,0 +1,3771 @@
+{
+  "config": {
+    "configFile": "/Users/priyalal/TS_JS/playwright.config.js",
+    "rootDir": "/Users/priyalal/TS_JS",
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 3
+    },
+    "preserveOutput": "always",
+    "reporter": [
+      [
+        "html",
+        {
+          "outputFolder": "./reports/html-report"
+        }
+      ],
+      [
+        "json",
+        {
+          "outputFile": "./reports/results.json"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "quiet": false,
+    "projects": [
+      {
+        "outputDir": "/Users/priyalal/TS_JS/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 3
+        },
+        "id": "",
+        "name": "",
+        "testDir": "/Users/priyalal/TS_JS",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 40000
+      }
+    ],
+    "shard": null,
+    "updateSnapshots": "missing",
+    "updateSourceMethod": "patch",
+    "version": "1.54.1",
+    "workers": 3,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "hooks/hook_1.spec.js",
+      "file": "hooks/hook_1.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "test_01",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 40000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 10536,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "Running this beforeALL hook at staring \n"
+                    },
+                    {
+                      "text": "Running this hook before each test case \n"
+                    },
+                    {
+                      "text": "Running this hook after each test case\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-07-30T00:07:51.950Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "/Users/priyalal/TS_JS/test-results/hooks-hook_1-test-01/test-finished-1.png"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "3a46c583b9f9e5e91567-8807fce93391862f3487",
+          "file": "hooks/hook_1.spec.js",
+          "line": 29,
+          "column": 1
+        },
+        {
+          "title": "test_02",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 40000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 3389,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "Running this hook before each test case \n"
+                    },
+                    {
+                      "text": "Running this hook after each test case\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-07-30T00:08:04.412Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "/Users/priyalal/TS_JS/test-results/hooks-hook_1-test-02/test-finished-1.png"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "3a46c583b9f9e5e91567-616ca072172f60dc3b9d",
+          "file": "hooks/hook_1.spec.js",
+          "line": 35,
+          "column": 1
+        },
+        {
+          "title": "test_03",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 40000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 3008,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "Running this hook before each test case \n"
+                    },
+                    {
+                      "text": "Running this hook after each test case\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-07-30T00:08:07.803Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "/Users/priyalal/TS_JS/test-results/hooks-hook_1-test-03/test-finished-1.png"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "3a46c583b9f9e5e91567-50bff108feb3f743e06e",
+          "file": "hooks/hook_1.spec.js",
+          "line": 42,
+          "column": 1
+        },
+        {
+          "title": "test_04",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 40000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2931,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "Running this hook before each test case \n"
+                    },
+                    {
+                      "text": "Running this hook after each test case\n"
+                    },
+                    {
+                      "text": "Running this afterALL hook at staring \n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-07-30T00:08:10.813Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "/Users/priyalal/TS_JS/test-results/hooks-hook_1-test-04/test-finished-1.png"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "3a46c583b9f9e5e91567-187bfdbc92efb5fafa4b",
+          "file": "hooks/hook_1.spec.js",
+          "line": 49,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "hooks/test_specific_hooks.spec.js",
+      "file": "hooks/test_specific_hooks.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Custom hook authentication",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 40000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 10782,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "This test uses the authenticatedPage fixture.\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-07-30T00:07:51.963Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "/Users/priyalal/TS_JS/test-results/hooks-test_specific_hooks-Custom-hook-authentication/test-finished-1.png"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "73a2b0ff8dc94467dc30-6ca24219b08c91f6df0d",
+          "file": "hooks/test_specific_hooks.spec.js",
+          "line": 25,
+          "column": 1
+        }
+      ],
+      "suites": [
+        {
+          "title": "Login test",
+          "file": "hooks/test_specific_hooks.spec.js",
+          "line": 4,
+          "column": 6,
+          "specs": [
+            {
+              "title": "Login with valid creds",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 40000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 1,
+                      "status": "passed",
+                      "duration": 0,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "before all hook\n"
+                        },
+                        {
+                          "text": "valid creds\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-07-30T00:07:51.958Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "73a2b0ff8dc94467dc30-bbf88d0faf8fdb9a891c",
+              "file": "hooks/test_specific_hooks.spec.js",
+              "line": 14,
+              "column": 3
+            },
+            {
+              "title": "Login with invalid creds",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 40000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 1,
+                      "status": "passed",
+                      "duration": 0,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "invalid creds\n"
+                        },
+                        {
+                          "text": "after all hook\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-07-30T00:07:51.962Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "73a2b0ff8dc94467dc30-8a25625e802164db8ecc",
+              "file": "hooks/test_specific_hooks.spec.js",
+              "line": 18,
+              "column": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "PageObject/PageObjectRevise/e2e.spec.js",
+      "file": "PageObject/PageObjectRevise/e2e.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "testing e2e priyalal2792@gmail.com",
+          "ok": false,
+          "tags": [
+            "gmail.com"
+          ],
+          "tests": [
+            {
+              "timeout": 40000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 2,
+                  "status": "failed",
+                  "duration": 15143,
+                  "error": {
+                    "message": "ReferenceError: expect is not defined",
+                    "stack": "ReferenceError: expect is not defined\n    at COP.placeorder (/Users/priyalal/TS_JS/PageObject/PageObjectRevise/COP.js:52:13)\n    at /Users/priyalal/TS_JS/PageObject/PageObjectRevise/e2e.spec.js:26:5",
+                    "location": {
+                      "file": "/Users/priyalal/TS_JS/PageObject/PageObjectRevise/COP.js",
+                      "column": 13,
+                      "line": 52
+                    },
+                    "snippet": "\u001b[90m   at \u001b[39mPageObject/PageObjectRevise/COP.js:52\n\n\u001b[0m \u001b[90m 50 |\u001b[39m\n \u001b[90m 51 |\u001b[39m             console\u001b[33m.\u001b[39mlog(\u001b[32m\"Verifying order confirmation\"\u001b[39m)\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 52 |\u001b[39m             \u001b[36mawait\u001b[39m expect(\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mpage\u001b[33m.\u001b[39mgetByRole(\u001b[32m'heading'\u001b[39m\u001b[33m,\u001b[39m { name\u001b[33m:\u001b[39m \u001b[32m'Thankyou for the order.'\u001b[39m }))\u001b[33m.\u001b[39mtoBeVisible()\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m             \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 53 |\u001b[39m             console\u001b[33m.\u001b[39mlog(\u001b[32m\"Order placed successfully!\"\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 54 |\u001b[39m\n \u001b[90m 55 |\u001b[39m     }\u001b[0m"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "/Users/priyalal/TS_JS/PageObject/PageObjectRevise/COP.js",
+                        "column": 13,
+                        "line": 52
+                      },
+                      "message": "ReferenceError: expect is not defined\n\n\u001b[90m   at \u001b[39mPageObject/PageObjectRevise/COP.js:52\n\n\u001b[0m \u001b[90m 50 |\u001b[39m\n \u001b[90m 51 |\u001b[39m             console\u001b[33m.\u001b[39mlog(\u001b[32m\"Verifying order confirmation\"\u001b[39m)\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 52 |\u001b[39m             \u001b[36mawait\u001b[39m expect(\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mpage\u001b[33m.\u001b[39mgetByRole(\u001b[32m'heading'\u001b[39m\u001b[33m,\u001b[39m { name\u001b[33m:\u001b[39m \u001b[32m'Thankyou for the order.'\u001b[39m }))\u001b[33m.\u001b[39mtoBeVisible()\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m             \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 53 |\u001b[39m             console\u001b[33m.\u001b[39mlog(\u001b[32m\"Order placed successfully!\"\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 54 |\u001b[39m\n \u001b[90m 55 |\u001b[39m     }\u001b[0m\n\u001b[2m    at COP.placeorder (/Users/priyalal/TS_JS/PageObject/PageObjectRevise/COP.js:52:13)\u001b[22m\n\u001b[2m    at /Users/priyalal/TS_JS/PageObject/PageObjectRevise/e2e.spec.js:26:5\u001b[22m"
+                    }
+                  ],
+                  "stdout": [
+                    {
+                      "text": "Product Titles: [ \u001b[32m'ZARA COAT 3'\u001b[39m, \u001b[32m'ADIDAS ORIGINAL'\u001b[39m, \u001b[32m'IPHONE 13 PRO'\u001b[39m ]\n"
+                    },
+                    {
+                      "text": "Clicking cart button\n"
+                    },
+                    {
+                      "text": "Waiting for checkout button\n"
+                    },
+                    {
+                      "text": "Clicking checkout button\n"
+                    },
+                    {
+                      "text": "Filling CVV\n"
+                    },
+                    {
+                      "text": "Filling name on card\n"
+                    },
+                    {
+                      "text": "Waiting for page to load\n"
+                    },
+                    {
+                      "text": "Selecting country\n"
+                    },
+                    {
+                      "text": "Clicking India option\n"
+                    },
+                    {
+                      "text": "Placing order\n"
+                    },
+                    {
+                      "text": "Verifying order confirmation\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-07-30T00:07:51.952Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "/Users/priyalal/TS_JS/test-results/PageObject-PageObjectRevis-e6496--e2e-priyalal2792-gmail-com/test-failed-1.png"
+                    },
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "/Users/priyalal/TS_JS/test-results/PageObject-PageObjectRevis-e6496--e2e-priyalal2792-gmail-com/trace.zip"
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "/Users/priyalal/TS_JS/PageObject/PageObjectRevise/COP.js",
+                    "column": 13,
+                    "line": 52
+                  }
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "3852e958d64a5e0cffca-66b2189d2de17faabc34",
+          "file": "PageObject/PageObjectRevise/e2e.spec.js",
+          "line": 14,
+          "column": 3
+        },
+        {
+          "title": "testing e2e priyalal279@gmail.com",
+          "ok": false,
+          "tags": [
+            "gmail.com"
+          ],
+          "tests": [
+            {
+              "timeout": 40000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 3,
+                  "parallelIndex": 2,
+                  "status": "failed",
+                  "duration": 17880,
+                  "error": {
+                    "message": "Error: \u001b[31mTimed out 15000ms waiting for \u001b[39m\u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m()\u001b[22m\n\nLocator: locator('.card-body h5').first()\nExpected: visible\nReceived: <element(s) not found>\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 15000ms\u001b[22m\n\u001b[2m  - waiting for locator('.card-body h5').first()\u001b[22m\n",
+                    "stack": "Error: \u001b[31mTimed out 15000ms waiting for \u001b[39m\u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m()\u001b[22m\n\nLocator: locator('.card-body h5').first()\nExpected: visible\nReceived: <element(s) not found>\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 15000ms\u001b[22m\n\u001b[2m  - waiting for locator('.card-body h5').first()\u001b[22m\n\n    at DP.add_to_cart (/Users/priyalal/TS_JS/PageObject/PageObjectRevise/DP.js:15:45)\n    at /Users/priyalal/TS_JS/PageObject/PageObjectRevise/e2e.spec.js:22:21",
+                    "location": {
+                      "file": "/Users/priyalal/TS_JS/PageObject/PageObjectRevise/DP.js",
+                      "column": 45,
+                      "line": 15
+                    },
+                    "snippet": "\u001b[90m   at \u001b[39mPageObject/PageObjectRevise/DP.js:15\n\n\u001b[0m \u001b[90m 13 |\u001b[39m      \u001b[36masync\u001b[39m add_to_cart() {\n \u001b[90m 14 |\u001b[39m         \u001b[90m// Wait for products to be visible instead of specific text\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 15 |\u001b[39m         \u001b[36mawait\u001b[39m expect(\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mcardbody\u001b[33m.\u001b[39mfirst())\u001b[33m.\u001b[39mtoBeVisible({ timeout\u001b[33m:\u001b[39m \u001b[35m15000\u001b[39m })\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                                             \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 16 |\u001b[39m\n \u001b[90m 17 |\u001b[39m         \u001b[36mconst\u001b[39m titles \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mcardbody\u001b[33m.\u001b[39mallTextContents()\u001b[33m;\u001b[39m \n \u001b[90m 18 |\u001b[39m         console\u001b[33m.\u001b[39mlog(\u001b[32m\"Product Titles:\"\u001b[39m\u001b[33m,\u001b[39m titles)\u001b[33m;\u001b[39m\u001b[0m"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "/Users/priyalal/TS_JS/PageObject/PageObjectRevise/DP.js",
+                        "column": 45,
+                        "line": 15
+                      },
+                      "message": "Error: \u001b[31mTimed out 15000ms waiting for \u001b[39m\u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m()\u001b[22m\n\nLocator: locator('.card-body h5').first()\nExpected: visible\nReceived: <element(s) not found>\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 15000ms\u001b[22m\n\u001b[2m  - waiting for locator('.card-body h5').first()\u001b[22m\n\n\n\u001b[90m   at \u001b[39mPageObject/PageObjectRevise/DP.js:15\n\n\u001b[0m \u001b[90m 13 |\u001b[39m      \u001b[36masync\u001b[39m add_to_cart() {\n \u001b[90m 14 |\u001b[39m         \u001b[90m// Wait for products to be visible instead of specific text\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 15 |\u001b[39m         \u001b[36mawait\u001b[39m expect(\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mcardbody\u001b[33m.\u001b[39mfirst())\u001b[33m.\u001b[39mtoBeVisible({ timeout\u001b[33m:\u001b[39m \u001b[35m15000\u001b[39m })\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                                             \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 16 |\u001b[39m\n \u001b[90m 17 |\u001b[39m         \u001b[36mconst\u001b[39m titles \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mcardbody\u001b[33m.\u001b[39mallTextContents()\u001b[33m;\u001b[39m \n \u001b[90m 18 |\u001b[39m         console\u001b[33m.\u001b[39mlog(\u001b[32m\"Product Titles:\"\u001b[39m\u001b[33m,\u001b[39m titles)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[2m    at DP.add_to_cart (/Users/priyalal/TS_JS/PageObject/PageObjectRevise/DP.js:15:45)\u001b[22m\n\u001b[2m    at /Users/priyalal/TS_JS/PageObject/PageObjectRevise/e2e.spec.js:22:21\u001b[22m"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-07-30T00:08:09.632Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "/Users/priyalal/TS_JS/test-results/PageObject-PageObjectRevis-dec18-g-e2e-priyalal279-gmail-com/test-failed-1.png"
+                    },
+                    {
+                      "name": "error-context",
+                      "contentType": "text/markdown",
+                      "path": "/Users/priyalal/TS_JS/test-results/PageObject-PageObjectRevis-dec18-g-e2e-priyalal279-gmail-com/error-context.md"
+                    },
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "/Users/priyalal/TS_JS/test-results/PageObject-PageObjectRevis-dec18-g-e2e-priyalal279-gmail-com/trace.zip"
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "/Users/priyalal/TS_JS/PageObject/PageObjectRevise/DP.js",
+                    "column": 45,
+                    "line": 15
+                  }
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "3852e958d64a5e0cffca-f6dc0babaefb492dfc05",
+          "file": "PageObject/PageObjectRevise/e2e.spec.js",
+          "line": 14,
+          "column": 3
+        }
+      ]
+    },
+    {
+      "title": "tests/clientApp.spec.js",
+      "file": "tests/clientApp.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "uicomponent",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 40000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 198762,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "Child window text: Please email us at mentor@rahulshettyacademy.com with below template to receive response \n"
+                    },
+                    {
+                      "text": "Email Href: mailto:mentor@rahulshettyacademy.com\n"
+                    },
+                    {
+                      "text": "rahulshettyacademy.com\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-07-30T00:08:04.663Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "/Users/priyalal/TS_JS/test-results/tests-clientApp-uicomponent/test-finished-1.png"
+                    },
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "/Users/priyalal/TS_JS/test-results/tests-clientApp-uicomponent/test-finished-2.png"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "93ff7a1b1388428d5f63-4910bbb2b596398a1d58",
+          "file": "tests/clientApp.spec.js",
+          "line": 10,
+          "column": 5
+        },
+        {
+          "title": "@smk e2e_addtocart",
+          "ok": true,
+          "tags": [
+            "smk"
+          ],
+          "tests": [
+            {
+              "timeout": 40000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 18307,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "Product Titles: [ \u001b[32m'ZARA COAT 3'\u001b[39m, \u001b[32m'ADIDAS ORIGINAL'\u001b[39m, \u001b[32m'IPHONE 13 PRO'\u001b[39m ]\n"
+                    },
+                    {
+                      "text": "[\n  \u001b[32m' | 6889627a6f585eb60d4e1daa | '\u001b[39m,\n  \u001b[32m' | 6889627a6f585eb60d4e1dad | '\u001b[39m,\n  \u001b[32m' | 6889627a6f585eb60d4e1db0 | '\u001b[39m\n]\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-07-30T00:08:13.750Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "/Users/priyalal/TS_JS/test-results/tests-clientApp--smk-e2e-addtocart/test-finished-1.png"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "93ff7a1b1388428d5f63-8d5cbf56a5dabd2bfb34",
+          "file": "tests/clientApp.spec.js",
+          "line": 57,
+          "column": 5
+        },
+        {
+          "title": "@smk Special Locators",
+          "ok": true,
+          "tags": [
+            "smk"
+          ],
+          "tests": [
+            {
+              "timeout": 40000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 4,
+                  "parallelIndex": 2,
+                  "status": "passed",
+                  "duration": 1863,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-07-30T00:08:28.281Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "/Users/priyalal/TS_JS/test-results/tests-clientApp--smk-Special-Locators/test-finished-1.png"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "93ff7a1b1388428d5f63-6a553fcffa439678003e",
+          "file": "tests/clientApp.spec.js",
+          "line": 106,
+          "column": 5
+        },
+        {
+          "title": "Using chaining/filter",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 40000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 4,
+                  "parallelIndex": 2,
+                  "status": "passed",
+                  "duration": 1698,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2N2Y1MDZmYmZjNzY1NDFhYWQyNTBlN2EiLCJ1c2VyRW1haWwiOiJwcml5YWxhbDI3OTJAZ21haWwuY29tIiwidXNlck1vYmlsZSI6NzA4MzM2NzUwOCwidXNlclJvbGUiOiJjdXN0b21lciIsImlhdCI6MTc1MzgzNDExMCwiZXhwIjoxNzg1MzkxNzEwfQ.lVXhhbrZ8kk3U_qnQGy-rqq1aweoHyaRoS_6au6vVCU\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-07-30T00:08:30.426Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "/Users/priyalal/TS_JS/test-results/tests-clientApp-Using-chaining-filter/test-finished-1.png"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "93ff7a1b1388428d5f63-a0f8061008e1ff50af5a",
+          "file": "tests/clientApp.spec.js",
+          "line": 148,
+          "column": 5
+        },
+        {
+          "title": "Hidden_and_Display_Alert_iframe",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 40000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 26961,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "Join 13,522 Happy Subscibers!\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-07-30T00:08:32.059Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "/Users/priyalal/TS_JS/test-results/tests-clientApp-Hidden-and-Display-Alert-iframe/test-finished-1.png"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "93ff7a1b1388428d5f63-3d159b1f951ff0e36a04",
+          "file": "tests/clientApp.spec.js",
+          "line": 214,
+          "column": 5
+        },
+        {
+          "title": "appzen",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 40000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 4,
+                  "parallelIndex": 2,
+                  "status": "passed",
+                  "duration": 24533,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-07-30T00:08:32.126Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "/Users/priyalal/TS_JS/test-results/tests-clientApp-appzen/test-finished-1.png"
+                    },
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "/Users/priyalal/TS_JS/test-results/tests-clientApp-appzen/test-finished-2.png"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "93ff7a1b1388428d5f63-ba07037e0e920717f43e",
+          "file": "tests/clientApp.spec.js",
+          "line": 233,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "tests/example.spec.js",
+      "file": "tests/example.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "has title",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 40000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 4,
+                  "parallelIndex": 2,
+                  "status": "passed",
+                  "duration": 3159,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-07-30T00:08:56.693Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "/Users/priyalal/TS_JS/test-results/tests-example-has-title/test-finished-1.png"
+                    },
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "/Users/priyalal/TS_JS/test-results/tests-example-has-title/test-finished-2.png"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "6ad0ca930a9848b0b896-bb3c15e55ddf1959b9e8",
+          "file": "tests/example.spec.js",
+          "line": 4,
+          "column": 5
+        },
+        {
+          "title": "get started link",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 40000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 4,
+                  "parallelIndex": 2,
+                  "status": "passed",
+                  "duration": 1661,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-07-30T00:08:59.859Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "/Users/priyalal/TS_JS/test-results/tests-example-get-started-link/test-finished-1.png"
+                    },
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "/Users/priyalal/TS_JS/test-results/tests-example-get-started-link/test-finished-2.png"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "6ad0ca930a9848b0b896-7c3b17b26130504cde6e",
+          "file": "tests/example.spec.js",
+          "line": 11,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "tests/networkintercept.spec.js",
+      "file": "tests/networkintercept.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "LoginviaAPI",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 40000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 6923,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "{\n  token: \u001b[32m'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2N2Y1MDZmYmZjNzY1NDFhYWQyNTBlN2EiLCJ1c2VyRW1haWwiOiJwcml5YWxhbDI3OTJAZ21haWwuY29tIiwidXNlck1vYmlsZSI6NzA4MzM2NzUwOCwidXNlclJvbGUiOiJjdXN0b21lciIsImlhdCI6MTc1MzgzNDEzOSwiZXhwIjoxNzg1MzkxNzM5fQ.PDEJ4D2ZsGH2eBjS0zscSuvrsOw7tTYXW9PJiTI6p3M'\u001b[39m,\n  userId: \u001b[32m'67f506fbfc76541aad250e7a'\u001b[39m,\n  message: \u001b[32m'Login Successfully'\u001b[39m\n}\n"
+                    },
+                    {
+                      "text": "Token  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2N2Y1MDZmYmZjNzY1NDFhYWQyNTBlN2EiLCJ1c2VyRW1haWwiOiJwcml5YWxhbDI3OTJAZ21haWwuY29tIiwidXNlck1vYmlsZSI6NzA4MzM2NzUwOCwidXNlclJvbGUiOiJjdXN0b21lciIsImlhdCI6MTc1MzgzNDEzOSwiZXhwIjoxNzg1MzkxNzM5fQ.PDEJ4D2ZsGH2eBjS0zscSuvrsOw7tTYXW9PJiTI6p3M\n"
+                    },
+                    {
+                      "text": "abc\n"
+                    },
+                    {
+                      "text": "[\n  \u001b[32m'67a8dde5c0d3e6622a297cc8'\u001b[39m,\n  \u001b[32m'67a8df1ac0d3e6622a297ccb'\u001b[39m,\n  \u001b[32m'67a8df56c0d3e6622a297ccd'\u001b[39m\n]\n"
+                    },
+                    {
+                      "text": "Product Added To Cart\n"
+                    },
+                    {
+                      "text": "orders :  6889629c6f585eb60d4e1de7\n"
+                    },
+                    {
+                      "text": "productOrderId :  67a8dde5c0d3e6622a297cc8\n"
+                    },
+                    {
+                      "text": "message :  Order Placed Successfully\n"
+                    },
+                    {
+                      "text": "Get Order Details: {\n  data: [\n    {\n      _id: \u001b[32m'6889629c6f585eb60d4e1de7'\u001b[39m,\n      orderById: \u001b[32m'67f506fbfc76541aad250e7a'\u001b[39m,\n      orderBy: \u001b[32m'priyalal2792@gmail.com'\u001b[39m,\n      productOrderedId: \u001b[32m'Wed Jul 30'\u001b[39m,\n      productName: \u001b[32m'ZARA COAT 3'\u001b[39m,\n      country: \u001b[32m'India'\u001b[39m,\n      productDescription: \u001b[32m'Adidas Originals'\u001b[39m,\n      productImage: \u001b[32m'https://rahulshettyacademy.com/api/ecom/uploads/productImage_1650649434146.jpeg'\u001b[39m,\n      orderDate: \u001b[1mnull\u001b[22m,\n      orderPrice: \u001b[32m'31500'\u001b[39m,\n      __v: \u001b[33m0\u001b[39m\n    },\n    {\n      _id: \u001b[32m'6889627a6f585eb60d4e1db0'\u001b[39m,\n      orderById: \u001b[32m'67f506fbfc76541aad250e7a'\u001b[39m,\n      orderBy: \u001b[32m'priyalal2792@gmail.com'\u001b[39m,\n      productOrderedId: \u001b[32m'Wed Jul 30'\u001b[39m,\n      productName: \u001b[32m'ZARA COAT 3'\u001b[39m,\n      country: \u001b[32m'India'\u001b[39m,\n      productDescription: \u001b[32m'Adidas Originals'\u001b[39m,\n      productImage: \u001b[32m'https://rahulshettyacademy.com/api/ecom/uploads/productImage_1650649434146.jpeg'\u001b[39m,\n      orderDate: \u001b[1mnull\u001b[22m,\n      orderPrice: \u001b[32m'31500'\u001b[39m,\n      __v: \u001b[33m0\u001b[39m\n    },\n    {\n      _id: \u001b[32m'6889627a6f585eb60d4e1dad'\u001b[39m,\n      orderById: \u001b[32m'67f506fbfc76541aad250e7a'\u001b[39m,\n      orderBy: \u001b[32m'priyalal2792@gmail.com'\u001b[39m,\n      productOrderedId: \u001b[32m'Wed Jul 30'\u001b[39m,\n      productName: \u001b[32m'ADIDAS ORIGINAL'\u001b[39m,\n      country: \u001b[32m'India'\u001b[39m,\n      productDescription: \u001b[32m'Addias Originals'\u001b[39m,\n      productImage: \u001b[32m'https://rahulshettyacademy.com/api/ecom/uploads/productImage_1650649488046.jpg'\u001b[39m,\n      orderDate: \u001b[1mnull\u001b[22m,\n      orderPrice: \u001b[32m'31500'\u001b[39m,\n      __v: \u001b[33m0\u001b[39m\n    },\n    {\n      _id: \u001b[32m'6889627a6f585eb60d4e1daa'\u001b[39m,\n      orderById: \u001b[32m'67f506fbfc76541aad250e7a'\u001b[39m,\n      orderBy: \u001b[32m'priyalal2792@gmail.com'\u001b[39m,\n      productOrderedId: \u001b[32m'Wed Jul 30'\u001b[39m,\n      productName: \u001b[32m'IPHONE 13 PRO'\u001b[39m,\n      country: \u001b[32m'India'\u001b[39m,\n      productDescription: \u001b[32m'iphonenew'\u001b[39m,\n      productImage: \u001b[32m'https://rahulshettyacademy.com/api/ecom/uploads/productImage_1650649561326.jpg'\u001b[39m,\n      orderDate: \u001b[1mnull\u001b[22m,\n      orderPrice: \u001b[32m'231500'\u001b[39m,\n      __v: \u001b[33m0\u001b[39m\n    },\n    {\n      _id: \u001b[32m'688962686f585eb60d4e1d7b'\u001b[39m,\n      orderById: \u001b[32m'67f506fbfc76541aad250e7a'\u001b[39m,\n      orderBy: \u001b[32m'priyalal2792@gmail.com'\u001b[39m,\n      productOrderedId: \u001b[32m'Wed Jul 30'\u001b[39m,\n      productName: \u001b[32m'ADIDAS ORIGINAL'\u001b[39m,\n      country: \u001b[32m'British Indian Ocean Territory'\u001b[39m,\n      productDescription: \u001b[32m'Addias Originals'\u001b[39m,\n      productImage: \u001b[32m'https://rahulshettyacademy.com/api/ecom/uploads/productImage_1650649488046.jpg'\u001b[39m,\n      orderDate: \u001b[1mnull\u001b[22m,\n      orderPrice: \u001b[32m'31500'\u001b[39m,\n      __v: \u001b[33m0\u001b[39m\n    },\n    {\n      _id: \u001b[32m'688962686f585eb60d4e1d78'\u001b[39m,\n      orderById: \u001b[32m'67f506fbfc76541aad250e7a'\u001b[39m,\n      orderBy: \u001b[32m'priyalal2792@gmail.com'\u001b[39m,\n      productOrderedId: \u001b[32m'Wed Jul 30'\u001b[39m,\n      productName: \u001b[32m'ZARA COAT 3'\u001b[39m,\n      country: \u001b[32m'British Indian Ocean Territory'\u001b[39m,\n      productDescription: \u001b[32m'Adidas Originals'\u001b[39m,\n      productImage: \u001b[32m'https://rahulshettyacademy.com/api/ecom/uploads/productImage_1650649434146.jpeg'\u001b[39m,\n      orderDate: \u001b[1mnull\u001b[22m,\n      orderPrice: \u001b[32m'31500'\u001b[39m,\n      __v: \u001b[33m0\u001b[39m\n    },\n    {\n      _id: \u001b[32m'688962686f585eb60d4e1d75'\u001b[39m,\n      orderById: \u001b[32m'67f506fbfc76541aad250e7a'\u001b[39m,\n      orderBy: \u001b[32m'priyalal2792@gmail.com'\u001b[39m,\n      productOrderedId: \u001b[32m'Wed Jul 30'\u001b[39m,\n      productName: \u001b[32m'IPHONE 13 PRO'\u001b[39m,\n      country: \u001b[32m'British Indian Ocean Territory'\u001b[39m,\n      productDescription: \u001b[32m'iphonenew'\u001b[39m,\n      productImage: \u001b[32m'https://rahulshettyacademy.com/api/ecom/uploads/productImage_1650649561326.jpg'\u001b[39m,\n      orderDate: \u001b[1mnull\u001b[22m,\n      orderPrice: \u001b[32m'231500'\u001b[39m,\n      __v: \u001b[33m0\u001b[39m\n    }\n  ],\n  count: \u001b[33m7\u001b[39m,\n  message: \u001b[32m'Orders fetched for customer Successfully'\u001b[39m\n}\n"
+                    },
+                    {
+                      "text": "[\n  \u001b[32m'6889629c6f585eb60d4e1de7'\u001b[39m,\n  \u001b[32m'6889627a6f585eb60d4e1db0'\u001b[39m,\n  \u001b[32m'6889627a6f585eb60d4e1dad'\u001b[39m,\n  \u001b[32m'6889627a6f585eb60d4e1daa'\u001b[39m,\n  \u001b[32m'688962686f585eb60d4e1d7b'\u001b[39m,\n  \u001b[32m'688962686f585eb60d4e1d78'\u001b[39m,\n  \u001b[32m'688962686f585eb60d4e1d75'\u001b[39m\n]\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-07-30T00:08:59.027Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "/Users/priyalal/TS_JS/test-results/tests-networkintercept-LoginviaAPI/test-finished-1.png"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "da933c4f9d64a890fa18-17c0b25c8680dda9d0d1",
+          "file": "tests/networkintercept.spec.js",
+          "line": 28,
+          "column": 1
+        },
+        {
+          "title": "Networks continue",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 40000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 7786,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-07-30T00:09:06.428Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "/Users/priyalal/TS_JS/test-results/tests-networkintercept-Networks-continue/test-finished-1.png"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "da933c4f9d64a890fa18-918892ef885e7eb56b4f",
+          "file": "tests/networkintercept.spec.js",
+          "line": 130,
+          "column": 1
+        },
+        {
+          "title": "Network Abort Call",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 40000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 7824,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "-----------------------------------------------------------------------\n"
+                    },
+                    {
+                      "text": "https://rahulshettyacademy.com/api/ecom/auth/login\n"
+                    },
+                    {
+                      "text": "\u001b[33m200\u001b[39m\n"
+                    },
+                    {
+                      "text": "https://rahulshettyacademy.com/api/ecom/product/get-all-products\n"
+                    },
+                    {
+                      "text": "https://rahulshettyacademy.com/api/ecom/user/get-cart-count/67f506fbfc76541aad250e7a\n"
+                    },
+                    {
+                      "text": "https://rahulshettyacademy.com/api/ecom/user/get-cart-count/67f506fbfc76541aad250e7a\n"
+                    },
+                    {
+                      "text": "\u001b[33m200\u001b[39m\n"
+                    },
+                    {
+                      "text": "\u001b[33m200\u001b[39m\n"
+                    },
+                    {
+                      "text": "\u001b[33m200\u001b[39m\n"
+                    },
+                    {
+                      "text": "https://rahulshettyacademy.com/api/ecom/user/get-cart-count/67f506fbfc76541aad250e7a\n"
+                    },
+                    {
+                      "text": "https://rahulshettyacademy.com/api/ecom/user/get-cart-count/67f506fbfc76541aad250e7a\n"
+                    },
+                    {
+                      "text": "https://rahulshettyacademy.com/api/ecom/user/get-cart-count/67f506fbfc76541aad250e7a\n"
+                    },
+                    {
+                      "text": "https://rahulshettyacademy.com/api/ecom/uploads/productImage_1650649434146.jpeg\n"
+                    },
+                    {
+                      "text": "https://rahulshettyacademy.com/api/ecom/uploads/productImage_1650649488046.jpg\n"
+                    },
+                    {
+                      "text": "https://rahulshettyacademy.com/api/ecom/uploads/productImage_1650649561326.jpg\n"
+                    },
+                    {
+                      "text": "\u001b[33m200\u001b[39m\n"
+                    },
+                    {
+                      "text": "\u001b[33m200\u001b[39m\n"
+                    },
+                    {
+                      "text": "\u001b[33m200\u001b[39m\n"
+                    },
+                    {
+                      "text": "https://rahulshettyacademy.com/api/ecom/order/get-orders-for-customer/67f506fbfc76541aad250e7a\n"
+                    },
+                    {
+                      "text": "https://rahulshettyacademy.com/api/ecom/user/get-cart-count/67f506fbfc76541aad250e7a\n"
+                    },
+                    {
+                      "text": "https://rahulshettyacademy.com/api/ecom/user/get-cart-count/67f506fbfc76541aad250e7a\n"
+                    },
+                    {
+                      "text": "\u001b[33m200\u001b[39m\n"
+                    },
+                    {
+                      "text": "\u001b[33m200\u001b[39m\n"
+                    },
+                    {
+                      "text": "\u001b[33m200\u001b[39m\n"
+                    },
+                    {
+                      "text": "https://rahulshettyacademy.com/api/ecom/uploads/productImage_1650649561326.jpg\n"
+                    },
+                    {
+                      "text": "https://rahulshettyacademy.com/api/ecom/uploads/productImage_1650649434146.jpeg\n"
+                    },
+                    {
+                      "text": "https://rahulshettyacademy.com/api/ecom/uploads/productImage_1650649488046.jpg\n"
+                    },
+                    {
+                      "text": "https://rahulshettyacademy.com/api/ecom/order/get-orders-details?id=6889629c6f585eb60d4e1de7\n"
+                    },
+                    {
+                      "text": "https://rahulshettyacademy.com/api/ecom/user/get-cart-count/67f506fbfc76541aad250e7a\n"
+                    },
+                    {
+                      "text": "https://rahulshettyacademy.com/api/ecom/user/get-cart-count/67f506fbfc76541aad250e7a\n"
+                    },
+                    {
+                      "text": "\u001b[33m200\u001b[39m\n"
+                    },
+                    {
+                      "text": "\u001b[33m200\u001b[39m\n"
+                    },
+                    {
+                      "text": "\u001b[33m200\u001b[39m\n"
+                    },
+                    {
+                      "text": "https://rahulshettyacademy.com/api/ecom/uploads/productImage_1650649434146.jpeg\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-07-30T00:09:14.215Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "/Users/priyalal/TS_JS/test-results/tests-networkintercept-Network-Abort-Call/test-finished-1.png"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "da933c4f9d64a890fa18-5c30b36db136163a78ee",
+          "file": "tests/networkintercept.spec.js",
+          "line": 152,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "tests/parallel-tests.spec.js",
+      "file": "tests/parallel-tests.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "@parallel @login basic login functionality",
+          "ok": true,
+          "tags": [
+            "parallel",
+            "login"
+          ],
+          "tests": [
+            {
+              "timeout": 40000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 4,
+                  "parallelIndex": 2,
+                  "status": "passed",
+                  "duration": 2395,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "Test 1: Starting basic login test\n"
+                    },
+                    {
+                      "text": "Test 1: Basic login test completed\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-07-30T00:09:01.532Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "/Users/priyalal/TS_JS/test-results/tests-parallel-tests--para-77eb4-n-basic-login-functionality/test-finished-1.png"
+                    },
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "/Users/priyalal/TS_JS/test-results/tests-parallel-tests--para-77eb4-n-basic-login-functionality/test-finished-2.png"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "cfe761f1ab92c4db6e03-42ab5b1eb65c95679d59",
+          "file": "tests/parallel-tests.spec.js",
+          "line": 4,
+          "column": 1
+        },
+        {
+          "title": "@parallel @search product search functionality",
+          "ok": true,
+          "tags": [
+            "parallel",
+            "search"
+          ],
+          "tests": [
+            {
+              "timeout": 40000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 4,
+                  "parallelIndex": 2,
+                  "status": "passed",
+                  "duration": 2352,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "Test 2: Starting product search test\n"
+                    },
+                    {
+                      "text": "Test 2: Found products: [ \u001b[32m'ZARA COAT 3'\u001b[39m, \u001b[32m'ADIDAS ORIGINAL'\u001b[39m, \u001b[32m'IPHONE 13 PRO'\u001b[39m ]\n"
+                    },
+                    {
+                      "text": "Test 2: Product search test completed\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-07-30T00:09:03.934Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "/Users/priyalal/TS_JS/test-results/tests-parallel-tests--para-c528e-roduct-search-functionality/test-finished-1.png"
+                    },
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "/Users/priyalal/TS_JS/test-results/tests-parallel-tests--para-c528e-roduct-search-functionality/test-finished-2.png"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "cfe761f1ab92c4db6e03-491f7f182660855159e0",
+          "file": "tests/parallel-tests.spec.js",
+          "line": 15,
+          "column": 1
+        },
+        {
+          "title": "@parallel @cart cart navigation test",
+          "ok": true,
+          "tags": [
+            "parallel",
+            "cart"
+          ],
+          "tests": [
+            {
+              "timeout": 40000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 4,
+                  "parallelIndex": 2,
+                  "status": "passed",
+                  "duration": 4103,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "Test 3: Starting cart navigation test\n"
+                    },
+                    {
+                      "text": "Test 3: Cart navigation test completed\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-07-30T00:09:06.296Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "/Users/priyalal/TS_JS/test-results/tests-parallel-tests--parallel-cart-cart-navigation-test/test-finished-1.png"
+                    },
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "/Users/priyalal/TS_JS/test-results/tests-parallel-tests--parallel-cart-cart-navigation-test/test-finished-2.png"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "cfe761f1ab92c4db6e03-42b750d905cb7563a2cd",
+          "file": "tests/parallel-tests.spec.js",
+          "line": 33,
+          "column": 1
+        },
+        {
+          "title": "@parallel @profile user profile functionality",
+          "ok": true,
+          "tags": [
+            "parallel",
+            "profile"
+          ],
+          "tests": [
+            {
+              "timeout": 40000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 4,
+                  "parallelIndex": 2,
+                  "status": "passed",
+                  "duration": 2693,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "Test 4: Starting user profile test\n"
+                    },
+                    {
+                      "text": "Test 4: User profile test completed - Found 3 products\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-07-30T00:09:10.409Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "/Users/priyalal/TS_JS/test-results/tests-parallel-tests--para-b56b1--user-profile-functionality/test-finished-1.png"
+                    },
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "/Users/priyalal/TS_JS/test-results/tests-parallel-tests--para-b56b1--user-profile-functionality/test-finished-2.png"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "cfe761f1ab92c4db6e03-01edeb8d911cd3610273",
+          "file": "tests/parallel-tests.spec.js",
+          "line": 55,
+          "column": 1
+        },
+        {
+          "title": "@parallel @performance page load performance",
+          "ok": true,
+          "tags": [
+            "parallel",
+            "performance"
+          ],
+          "tests": [
+            {
+              "timeout": 40000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 4,
+                  "parallelIndex": 2,
+                  "status": "passed",
+                  "duration": 2141,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "Test 5: Starting performance test\n"
+                    },
+                    {
+                      "text": "Test 5: Page loaded in 1922ms\n"
+                    },
+                    {
+                      "text": "Test 5: Performance test completed\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-07-30T00:09:13.110Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "/Users/priyalal/TS_JS/test-results/tests-parallel-tests--para-1d90a-mance-page-load-performance/test-finished-1.png"
+                    },
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "/Users/priyalal/TS_JS/test-results/tests-parallel-tests--para-1d90a-mance-page-load-performance/test-finished-2.png"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "cfe761f1ab92c4db6e03-e3407e856a0d2e02fdb9",
+          "file": "tests/parallel-tests.spec.js",
+          "line": 72,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "tests/POM.spec.js",
+      "file": "tests/POM.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "e2e_POM with Secrets Manager",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 40000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 4,
+                  "parallelIndex": 2,
+                  "status": "failed",
+                  "duration": 0,
+                  "error": {
+                    "message": "CredentialsProviderError: Could not load credentials from any providers",
+                    "stack": "CredentialsProviderError: Could not load credentials from any providers\n    at /Users/priyalal/TS_JS/node_modules/@aws-sdk/credential-provider-node/dist-cjs/index.js:129:13\n    at /Users/priyalal/TS_JS/node_modules/@smithy/property-provider/dist-cjs/index.js:99:33\n    at coalesceProvider (/Users/priyalal/TS_JS/node_modules/@smithy/property-provider/dist-cjs/index.js:126:18)\n    at /Users/priyalal/TS_JS/node_modules/@smithy/property-provider/dist-cjs/index.js:144:18\n    at /Users/priyalal/TS_JS/node_modules/@smithy/core/dist-cjs/index.js:111:17\n    at /Users/priyalal/TS_JS/node_modules/@aws-sdk/middleware-logger/dist-cjs/index.js:33:22\n    at getSecret (/Users/priyalal/TS_JS/utils/aws-secrets-manager.js:13:16)\n    at /Users/priyalal/TS_JS/tests/POM.spec.js:7:23",
+                    "location": {
+                      "file": "/Users/priyalal/TS_JS/utils/aws-secrets-manager.js",
+                      "column": 16,
+                      "line": 13
+                    },
+                    "snippet": "\u001b[90m   at \u001b[39mutils/aws-secrets-manager.js:13\n\n\u001b[0m \u001b[90m 11 |\u001b[39m\n \u001b[90m 12 |\u001b[39m   \u001b[36mtry\u001b[39m {\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 13 |\u001b[39m     response \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m client\u001b[33m.\u001b[39msend(\n \u001b[90m    |\u001b[39m                \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 14 |\u001b[39m       \u001b[36mnew\u001b[39m \u001b[33mGetSecretValueCommand\u001b[39m({\n \u001b[90m 15 |\u001b[39m         \u001b[33mSecretId\u001b[39m\u001b[33m:\u001b[39m secret_name\u001b[33m,\u001b[39m\n \u001b[90m 16 |\u001b[39m         \u001b[33mVersionStage\u001b[39m\u001b[33m:\u001b[39m \u001b[32m\"AWSCURRENT\"\u001b[39m\u001b[33m,\u001b[39m \u001b[90m// VersionStage defaults to AWSCURRENT if unspecified\u001b[39m\u001b[0m"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "/Users/priyalal/TS_JS/utils/aws-secrets-manager.js",
+                        "column": 16,
+                        "line": 13
+                      },
+                      "message": "CredentialsProviderError: Could not load credentials from any providers\n\n\u001b[90m   at \u001b[39mutils/aws-secrets-manager.js:13\n\n\u001b[0m \u001b[90m 11 |\u001b[39m\n \u001b[90m 12 |\u001b[39m   \u001b[36mtry\u001b[39m {\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 13 |\u001b[39m     response \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m client\u001b[33m.\u001b[39msend(\n \u001b[90m    |\u001b[39m                \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 14 |\u001b[39m       \u001b[36mnew\u001b[39m \u001b[33mGetSecretValueCommand\u001b[39m({\n \u001b[90m 15 |\u001b[39m         \u001b[33mSecretId\u001b[39m\u001b[33m:\u001b[39m secret_name\u001b[33m,\u001b[39m\n \u001b[90m 16 |\u001b[39m         \u001b[33mVersionStage\u001b[39m\u001b[33m:\u001b[39m \u001b[32m\"AWSCURRENT\"\u001b[39m\u001b[33m,\u001b[39m \u001b[90m// VersionStage defaults to AWSCURRENT if unspecified\u001b[39m\u001b[0m\n\u001b[2m    at /Users/priyalal/TS_JS/node_modules/@aws-sdk/credential-provider-node/dist-cjs/index.js:129:13\u001b[22m\n\u001b[2m    at /Users/priyalal/TS_JS/node_modules/@smithy/property-provider/dist-cjs/index.js:99:33\u001b[22m\n\u001b[2m    at coalesceProvider (/Users/priyalal/TS_JS/node_modules/@smithy/property-provider/dist-cjs/index.js:126:18)\u001b[22m\n\u001b[2m    at /Users/priyalal/TS_JS/node_modules/@smithy/property-provider/dist-cjs/index.js:144:18\u001b[22m\n\u001b[2m    at /Users/priyalal/TS_JS/node_modules/@smithy/core/dist-cjs/index.js:111:17\u001b[22m\n\u001b[2m    at /Users/priyalal/TS_JS/node_modules/@aws-sdk/middleware-logger/dist-cjs/index.js:33:22\u001b[22m\n\u001b[2m    at getSecret (/Users/priyalal/TS_JS/utils/aws-secrets-manager.js:13:16)\u001b[22m\n\u001b[2m    at /Users/priyalal/TS_JS/tests/POM.spec.js:7:23\u001b[22m"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-07-30T00:09:15.326Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "/Users/priyalal/TS_JS/test-results/tests-POM-e2e-POM-with-Secrets-Manager/test-failed-1.png"
+                    },
+                    {
+                      "name": "error-context",
+                      "contentType": "text/markdown",
+                      "path": "/Users/priyalal/TS_JS/test-results/tests-POM-e2e-POM-with-Secrets-Manager/error-context.md"
+                    },
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "/Users/priyalal/TS_JS/test-results/tests-POM-e2e-POM-with-Secrets-Manager/trace.zip"
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "/Users/priyalal/TS_JS/utils/aws-secrets-manager.js",
+                    "column": 16,
+                    "line": 13
+                  }
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "6dfe151a2eb4dc36087a-1c7ffc00ce77b6effe83",
+          "file": "tests/POM.spec.js",
+          "line": 12,
+          "column": 1
+        },
+        {
+          "title": "smoke test - basic login",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 40000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": -1,
+                  "parallelIndex": -1,
+                  "status": "skipped",
+                  "duration": 0,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-07-30T00:09:17.601Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "skipped"
+            }
+          ],
+          "id": "6dfe151a2eb4dc36087a-09b8ea4ca829c2f69914",
+          "file": "tests/POM.spec.js",
+          "line": 48,
+          "column": 1
+        },
+        {
+          "title": "regression test - full checkout flow",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 40000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": -1,
+                  "parallelIndex": -1,
+                  "status": "skipped",
+                  "duration": 0,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-07-30T00:09:17.601Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "skipped"
+            }
+          ],
+          "id": "6dfe151a2eb4dc36087a-b976882f201b8a46a05e",
+          "file": "tests/POM.spec.js",
+          "line": 53,
+          "column": 1
+        },
+        {
+          "title": "critical test - payment validation",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 40000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": -1,
+                  "parallelIndex": -1,
+                  "status": "skipped",
+                  "duration": 0,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-07-30T00:09:17.601Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "skipped"
+            }
+          ],
+          "id": "6dfe151a2eb4dc36087a-302ccc29976e7dcd5088",
+          "file": "tests/POM.spec.js",
+          "line": 58,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "tests/storage.spec.js",
+      "file": "tests/storage.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Storage testing",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 40000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 5,
+                  "parallelIndex": 2,
+                  "status": "passed",
+                  "duration": 7573,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "[ \u001b[32m' | 688962bd6f585eb60d4e1e79 | '\u001b[39m ]\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-07-30T00:09:17.945Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "/Users/priyalal/TS_JS/test-results/tests-storage-Storage-testing/test-finished-1.png"
+                    },
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "/Users/priyalal/TS_JS/test-results/tests-storage-Storage-testing/test-finished-2.png"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "a1bb9ed753e28741c2f2-f046fb6bb3ae05989775",
+          "file": "tests/storage.spec.js",
+          "line": 26,
+          "column": 1
+        },
+        {
+          "title": "visual testing",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 40000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 5,
+                  "parallelIndex": 2,
+                  "status": "timedOut",
+                  "duration": 43117,
+                  "error": {
+                    "message": "\u001b[31mTest timeout of 40000ms exceeded.\u001b[39m",
+                    "stack": "\u001b[31mTest timeout of 40000ms exceeded.\u001b[39m"
+                  },
+                  "errors": [
+                    {
+                      "message": "\u001b[31mTest timeout of 40000ms exceeded.\u001b[39m"
+                    },
+                    {
+                      "location": {
+                        "file": "/Users/priyalal/TS_JS/tests/storage.spec.js",
+                        "column": 41,
+                        "line": 52
+                      },
+                      "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mBuffer\u001b[39m\u001b[2m).\u001b[22mtoMatchSnapshot\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\n  273573 pixels (ratio 0.30 of all image pixels) are different.\n\n  Snapshot: landing_page.png\n\n\n\u001b[0m \u001b[90m 50 |\u001b[39m test(\u001b[32m'visual testing'\u001b[39m\u001b[33m,\u001b[39m\u001b[36masync\u001b[39m({page})\u001b[33m=>\u001b[39m{\n \u001b[90m 51 |\u001b[39m         \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mgoto(\u001b[32m\"https://timesofindia.indiatimes.com/\"\u001b[39m)\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 52 |\u001b[39m         expect(\u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mscreenshot())\u001b[33m.\u001b[39mtoMatchSnapshot(\u001b[32m'landing_page.png'\u001b[39m)\n \u001b[90m    |\u001b[39m                                         \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 53 |\u001b[39m })\u001b[0m\n\u001b[2m    at /Users/priyalal/TS_JS/tests/storage.spec.js:52:41\u001b[22m"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-07-30T00:09:33.353Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "/Users/priyalal/TS_JS/test-results/tests-storage-visual-testing/test-failed-2.png"
+                    },
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "/Users/priyalal/TS_JS/test-results/tests-storage-visual-testing/test-failed-1.png"
+                    },
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "/Users/priyalal/TS_JS/test-results/tests-storage-visual-testing/test-failed-3.png"
+                    },
+                    {
+                      "name": "landing-page-expected.png",
+                      "contentType": "image/png",
+                      "path": "/Users/priyalal/TS_JS/tests/storage.spec.js-snapshots/landing-page-darwin.png"
+                    },
+                    {
+                      "name": "landing-page-actual.png",
+                      "contentType": "image/png",
+                      "path": "/Users/priyalal/TS_JS/test-results/tests-storage-visual-testing/landing-page-actual.png"
+                    },
+                    {
+                      "name": "landing-page-diff.png",
+                      "contentType": "image/png",
+                      "path": "/Users/priyalal/TS_JS/test-results/tests-storage-visual-testing/landing-page-diff.png"
+                    },
+                    {
+                      "name": "error-context",
+                      "contentType": "text/markdown",
+                      "path": "/Users/priyalal/TS_JS/test-results/tests-storage-visual-testing/error-context.md"
+                    },
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "/Users/priyalal/TS_JS/test-results/tests-storage-visual-testing/trace.zip"
+                    }
+                  ]
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "a1bb9ed753e28741c2f2-0ea217af29e58506be9c",
+          "file": "tests/storage.spec.js",
+          "line": 50,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "tests/test-categories.spec.js",
+      "file": "tests/test-categories.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "E-commerce Test Suite",
+          "file": "tests/test-categories.spec.js",
+          "line": 4,
+          "column": 6,
+          "specs": [
+            {
+              "title": "@smoke @login basic login functionality",
+              "ok": true,
+              "tags": [
+                "smoke",
+                "login"
+              ],
+              "tests": [
+                {
+                  "timeout": 40000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 2462,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "Running smoke test for login\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-07-30T00:09:22.044Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/Users/priyalal/TS_JS/test-results/tests-test-categories-E-co-6224b-n-basic-login-functionality/test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "95c24a7b4a757792325c-45278571b8634bfb59a7",
+              "file": "tests/test-categories.spec.js",
+              "line": 6,
+              "column": 5
+            },
+            {
+              "title": "@regression @checkout full checkout process",
+              "ok": false,
+              "tags": [
+                "regression",
+                "checkout"
+              ],
+              "tests": [
+                {
+                  "timeout": 40000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "failed",
+                      "duration": 7515,
+                      "error": {
+                        "message": "Error: \u001b[31mTimed out 5000ms waiting for \u001b[39m\u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m()\u001b[22m\n\nLocator: getByRole('button', { name: 'Checkout❯' })\nExpected: visible\nReceived: <element(s) not found>\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for getByRole('button', { name: 'Checkout❯' })\u001b[22m\n",
+                        "stack": "Error: \u001b[31mTimed out 5000ms waiting for \u001b[39m\u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m()\u001b[22m\n\nLocator: getByRole('button', { name: 'Checkout❯' })\nExpected: visible\nReceived: <element(s) not found>\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for getByRole('button', { name: 'Checkout❯' })\u001b[22m\n\n    at /Users/priyalal/TS_JS/tests/test-categories.spec.js:30:71",
+                        "location": {
+                          "file": "/Users/priyalal/TS_JS/tests/test-categories.spec.js",
+                          "column": 71,
+                          "line": 30
+                        },
+                        "snippet": "\u001b[0m \u001b[90m 28 |\u001b[39m         \u001b[90m// Go to cart\u001b[39m\n \u001b[90m 29 |\u001b[39m         \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mlocator(\u001b[32m'button[routerlink=\"/dashboard/cart\"]'\u001b[39m)\u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 30 |\u001b[39m         \u001b[36mawait\u001b[39m expect(page\u001b[33m.\u001b[39mgetByRole(\u001b[32m'button'\u001b[39m\u001b[33m,\u001b[39m { name\u001b[33m:\u001b[39m \u001b[32m'Checkout❯'\u001b[39m }))\u001b[33m.\u001b[39mtoBeVisible()\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                                                                       \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 31 |\u001b[39m     })\u001b[33m;\u001b[39m\n \u001b[90m 32 |\u001b[39m\n \u001b[90m 33 |\u001b[39m     test(\u001b[32m'@critical @payment payment validation'\u001b[39m\u001b[33m,\u001b[39m \u001b[36masync\u001b[39m ({ page }) \u001b[33m=>\u001b[39m {\u001b[0m"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "/Users/priyalal/TS_JS/tests/test-categories.spec.js",
+                            "column": 71,
+                            "line": 30
+                          },
+                          "message": "Error: \u001b[31mTimed out 5000ms waiting for \u001b[39m\u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m()\u001b[22m\n\nLocator: getByRole('button', { name: 'Checkout❯' })\nExpected: visible\nReceived: <element(s) not found>\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for getByRole('button', { name: 'Checkout❯' })\u001b[22m\n\n\n\u001b[0m \u001b[90m 28 |\u001b[39m         \u001b[90m// Go to cart\u001b[39m\n \u001b[90m 29 |\u001b[39m         \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mlocator(\u001b[32m'button[routerlink=\"/dashboard/cart\"]'\u001b[39m)\u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 30 |\u001b[39m         \u001b[36mawait\u001b[39m expect(page\u001b[33m.\u001b[39mgetByRole(\u001b[32m'button'\u001b[39m\u001b[33m,\u001b[39m { name\u001b[33m:\u001b[39m \u001b[32m'Checkout❯'\u001b[39m }))\u001b[33m.\u001b[39mtoBeVisible()\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                                                                       \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 31 |\u001b[39m     })\u001b[33m;\u001b[39m\n \u001b[90m 32 |\u001b[39m\n \u001b[90m 33 |\u001b[39m     test(\u001b[32m'@critical @payment payment validation'\u001b[39m\u001b[33m,\u001b[39m \u001b[36masync\u001b[39m ({ page }) \u001b[33m=>\u001b[39m {\u001b[0m\n\u001b[2m    at /Users/priyalal/TS_JS/tests/test-categories.spec.js:30:71\u001b[22m"
+                        }
+                      ],
+                      "stdout": [
+                        {
+                          "text": "Running regression test for checkout\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-07-30T00:09:24.508Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/Users/priyalal/TS_JS/test-results/tests-test-categories-E-co-cda31-ckout-full-checkout-process/test-failed-1.png"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "/Users/priyalal/TS_JS/test-results/tests-test-categories-E-co-cda31-ckout-full-checkout-process/error-context.md"
+                        },
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "/Users/priyalal/TS_JS/test-results/tests-test-categories-E-co-cda31-ckout-full-checkout-process/trace.zip"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "/Users/priyalal/TS_JS/tests/test-categories.spec.js",
+                        "column": 71,
+                        "line": 30
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "95c24a7b4a757792325c-a9823412183b3d916d58",
+              "file": "tests/test-categories.spec.js",
+              "line": 15,
+              "column": 5
+            },
+            {
+              "title": "@critical @payment payment validation",
+              "ok": true,
+              "tags": [
+                "critical",
+                "payment"
+              ],
+              "tests": [
+                {
+                  "timeout": 40000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 6,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 330,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "Running critical test for payment\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-07-30T00:09:32.557Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/Users/priyalal/TS_JS/test-results/tests-test-categories-E-co-0387a--payment-payment-validation/test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "95c24a7b4a757792325c-9a62d04ed6c91ed7ca31",
+              "file": "tests/test-categories.spec.js",
+              "line": 33,
+              "column": 5
+            },
+            {
+              "title": "@integration @api API integration test",
+              "ok": true,
+              "tags": [
+                "integration",
+                "api"
+              ],
+              "tests": [
+                {
+                  "timeout": 40000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 6,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 228,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "Running integration test for API\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-07-30T00:09:33.178Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/Users/priyalal/TS_JS/test-results/tests-test-categories-E-co-02af9-on-api-API-integration-test/test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "95c24a7b4a757792325c-47b4bdf924b48e647d93",
+              "file": "tests/test-categories.spec.js",
+              "line": 39,
+              "column": 5
+            }
+          ]
+        },
+        {
+          "title": "User Management",
+          "file": "tests/test-categories.spec.js",
+          "line": 47,
+          "column": 6,
+          "specs": [
+            {
+              "title": "should create new user",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 40000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 6,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 239,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "Creating new user\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-07-30T00:09:33.409Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/Users/priyalal/TS_JS/test-results/tests-test-categories-User-Management-should-create-new-user/test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "95c24a7b4a757792325c-1a2662d2776cfe6b42d1",
+              "file": "tests/test-categories.spec.js",
+              "line": 48,
+              "column": 5
+            },
+            {
+              "title": "should update user profile",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 40000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 6,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 216,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "Updating user profile\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-07-30T00:09:33.649Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/Users/priyalal/TS_JS/test-results/tests-test-categories-User-81dcf--should-update-user-profile/test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "95c24a7b4a757792325c-3a378e3ef7403f99c463",
+              "file": "tests/test-categories.spec.js",
+              "line": 53,
+              "column": 5
+            }
+          ]
+        },
+        {
+          "title": "Performance Tests",
+          "file": "tests/test-categories.spec.js",
+          "line": 60,
+          "column": 6,
+          "specs": [
+            {
+              "title": "should load page within 3 seconds",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 40000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 6,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 2074,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "Testing page load performance\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-07-30T00:09:33.867Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/Users/priyalal/TS_JS/test-results/tests-test-categories-Perf-dca29--load-page-within-3-seconds/test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "95c24a7b4a757792325c-ac157179fba792a8d123",
+              "file": "tests/test-categories.spec.js",
+              "line": 61,
+              "column": 5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "tests/UIBasics.spec.js",
+      "file": "tests/UIBasics.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "FirstPlaywrightTest",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 40000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 6,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 7421,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-07-30T00:09:35.946Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "/Users/priyalal/TS_JS/test-results/tests-UIBasics-FirstPlaywrightTest/test-finished-1.png"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "567570b966a639255704-ecb32208acd208ab2aa5",
+          "file": "tests/UIBasics.spec.js",
+          "line": 5,
+          "column": 1
+        },
+        {
+          "title": "IncorrectUsername",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 40000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 6,
+                  "parallelIndex": 0,
+                  "status": "failed",
+                  "duration": 9133,
+                  "error": {
+                    "message": "Error: \u001b[31mTimed out 5000ms waiting for \u001b[39m\u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nLocator: locator('[style*=\"block\"]')\nExpected string: \u001b[32m\"eeee\"\u001b[39m\nReceived: <element(s) not found>\nCall log:\n\u001b[2m  - Expect \"toHaveText\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('[style*=\"block\"]')\u001b[22m\n\u001b[2m    5 × locator resolved to <div class=\"alert alert-danger col-md-12\">…</div>\u001b[22m\n\u001b[2m      - unexpected value \"Incorrect username/password.\"\u001b[22m\n",
+                    "stack": "Error: \u001b[31mTimed out 5000ms waiting for \u001b[39m\u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nLocator: locator('[style*=\"block\"]')\nExpected string: \u001b[32m\"eeee\"\u001b[39m\nReceived: <element(s) not found>\nCall log:\n\u001b[2m  - Expect \"toHaveText\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('[style*=\"block\"]')\u001b[22m\n\u001b[2m    5 × locator resolved to <div class=\"alert alert-danger col-md-12\">…</div>\u001b[22m\n\u001b[2m      - unexpected value \"Incorrect username/password.\"\u001b[22m\n\n    at /Users/priyalal/TS_JS/tests/UIBasics.spec.js:22:60",
+                    "location": {
+                      "file": "/Users/priyalal/TS_JS/tests/UIBasics.spec.js",
+                      "column": 60,
+                      "line": 22
+                    },
+                    "snippet": "\u001b[0m \u001b[90m 20 |\u001b[39m             \u001b[36mconst\u001b[39m errorMsg \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mlocator(\u001b[32m'[style*=\"block\"]'\u001b[39m)\u001b[33m.\u001b[39mtextContent()\u001b[33m;\u001b[39m\n \u001b[90m 21 |\u001b[39m             console\u001b[33m.\u001b[39mlog(\u001b[32m\"Error Message:\"\u001b[39m\u001b[33m,\u001b[39m errorMsg)\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 22 |\u001b[39m             \u001b[36mawait\u001b[39m expect(page\u001b[33m.\u001b[39mlocator(\u001b[32m'[style*=\"block\"]'\u001b[39m))\u001b[33m.\u001b[39mtoHaveText(\u001b[32m\"eeee\"\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                                                            \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 23 |\u001b[39m         \n \u001b[90m 24 |\u001b[39m })\n \u001b[90m 25 |\u001b[39m\u001b[0m"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "/Users/priyalal/TS_JS/tests/UIBasics.spec.js",
+                        "column": 60,
+                        "line": 22
+                      },
+                      "message": "Error: \u001b[31mTimed out 5000ms waiting for \u001b[39m\u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nLocator: locator('[style*=\"block\"]')\nExpected string: \u001b[32m\"eeee\"\u001b[39m\nReceived: <element(s) not found>\nCall log:\n\u001b[2m  - Expect \"toHaveText\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('[style*=\"block\"]')\u001b[22m\n\u001b[2m    5 × locator resolved to <div class=\"alert alert-danger col-md-12\">…</div>\u001b[22m\n\u001b[2m      - unexpected value \"Incorrect username/password.\"\u001b[22m\n\n\n\u001b[0m \u001b[90m 20 |\u001b[39m             \u001b[36mconst\u001b[39m errorMsg \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mlocator(\u001b[32m'[style*=\"block\"]'\u001b[39m)\u001b[33m.\u001b[39mtextContent()\u001b[33m;\u001b[39m\n \u001b[90m 21 |\u001b[39m             console\u001b[33m.\u001b[39mlog(\u001b[32m\"Error Message:\"\u001b[39m\u001b[33m,\u001b[39m errorMsg)\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 22 |\u001b[39m             \u001b[36mawait\u001b[39m expect(page\u001b[33m.\u001b[39mlocator(\u001b[32m'[style*=\"block\"]'\u001b[39m))\u001b[33m.\u001b[39mtoHaveText(\u001b[32m\"eeee\"\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                                                            \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 23 |\u001b[39m         \n \u001b[90m 24 |\u001b[39m })\n \u001b[90m 25 |\u001b[39m\u001b[0m\n\u001b[2m    at /Users/priyalal/TS_JS/tests/UIBasics.spec.js:22:60\u001b[22m"
+                    }
+                  ],
+                  "stdout": [
+                    {
+                      "text": "Error Message: Incorrect username/password.\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-07-30T00:09:43.369Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "/Users/priyalal/TS_JS/test-results/tests-UIBasics-IncorrectUsername/test-failed-2.png"
+                    },
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "/Users/priyalal/TS_JS/test-results/tests-UIBasics-IncorrectUsername/test-failed-1.png"
+                    },
+                    {
+                      "name": "error-context",
+                      "contentType": "text/markdown",
+                      "path": "/Users/priyalal/TS_JS/test-results/tests-UIBasics-IncorrectUsername/error-context.md"
+                    },
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "/Users/priyalal/TS_JS/test-results/tests-UIBasics-IncorrectUsername/trace.zip"
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "/Users/priyalal/TS_JS/tests/UIBasics.spec.js",
+                    "column": 60,
+                    "line": 22
+                  }
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "567570b966a639255704-0db9e3e984f96e0e6f6c",
+          "file": "tests/UIBasics.spec.js",
+          "line": 13,
+          "column": 1
+        },
+        {
+          "title": "LogintoEcommerce",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 40000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 7,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 4679,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "First Product: iphone X\n"
+                    },
+                    {
+                      "text": "iphone X\n"
+                    },
+                    {
+                      "text": "Samsung Note 8\n"
+                    },
+                    {
+                      "text": "Nokia Edge\n"
+                    },
+                    {
+                      "text": "Blackberry\n"
+                    },
+                    {
+                      "text": "[ \u001b[32m'iphone X'\u001b[39m, \u001b[32m'Samsung Note 8'\u001b[39m, \u001b[32m'Nokia Edge'\u001b[39m, \u001b[32m'Blackberry'\u001b[39m ]\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-07-30T00:09:53.217Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "/Users/priyalal/TS_JS/test-results/tests-UIBasics-LogintoEcommerce/test-finished-1.png"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "567570b966a639255704-8efa7210807c96dee49b",
+          "file": "tests/UIBasics.spec.js",
+          "line": 27,
+          "column": 1
+        },
+        {
+          "title": "Login_additems",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 40000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 7,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2380,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "Let's Shop\n"
+                    },
+                    {
+                      "text": "ZARA COAT 3\n"
+                    },
+                    {
+                      "text": "[ \u001b[32m'ZARA COAT 3'\u001b[39m, \u001b[32m'ADIDAS ORIGINAL'\u001b[39m, \u001b[32m'IPHONE 13 PRO'\u001b[39m ]\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-07-30T00:09:58.192Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "/Users/priyalal/TS_JS/test-results/tests-UIBasics-Login-additems/test-finished-1.png"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "567570b966a639255704-af7c2ed1b9120695ea24",
+          "file": "tests/UIBasics.spec.js",
+          "line": 56,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "tests/WebAPI.spec.js",
+      "file": "tests/WebAPI.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "e2e",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 40000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 7,
+                  "parallelIndex": 0,
+                  "status": "failed",
+                  "duration": 19248,
+                  "error": {
+                    "message": "Error: \u001b[31mTimed out 5000ms waiting for \u001b[39m\u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m()\u001b[22m\n\nLocator: getByRole('rowheader', { name: ' | 688962e66f585eb60d4e1eb1 | ' })\nExpected: visible\nReceived: <element(s) not found>\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for getByRole('rowheader', { name: ' | 688962e66f585eb60d4e1eb1 | ' })\u001b[22m\n",
+                    "stack": "Error: \u001b[31mTimed out 5000ms waiting for \u001b[39m\u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m()\u001b[22m\n\nLocator: getByRole('rowheader', { name: ' | 688962e66f585eb60d4e1eb1 | ' })\nExpected: visible\nReceived: <element(s) not found>\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for getByRole('rowheader', { name: ' | 688962e66f585eb60d4e1eb1 | ' })\u001b[22m\n\n    at /Users/priyalal/TS_JS/tests/WebAPI.spec.js:70:61",
+                    "location": {
+                      "file": "/Users/priyalal/TS_JS/tests/WebAPI.spec.js",
+                      "column": 61,
+                      "line": 70
+                    },
+                    "snippet": "\u001b[0m \u001b[90m 68 |\u001b[39m\n \u001b[90m 69 |\u001b[39m   \u001b[36mfor\u001b[39m (\u001b[36mconst\u001b[39m id \u001b[36mof\u001b[39m order_ids) {\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 70 |\u001b[39m     \u001b[36mawait\u001b[39m expect(page\u001b[33m.\u001b[39mgetByRole(\u001b[32m'rowheader'\u001b[39m\u001b[33m,\u001b[39m { name\u001b[33m:\u001b[39m id }))\u001b[33m.\u001b[39mtoBeVisible()\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                                                             \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 71 |\u001b[39m   }\n \u001b[90m 72 |\u001b[39m })\u001b[33m;\u001b[39m\n \u001b[90m 73 |\u001b[39m\u001b[0m"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "/Users/priyalal/TS_JS/tests/WebAPI.spec.js",
+                        "column": 61,
+                        "line": 70
+                      },
+                      "message": "Error: \u001b[31mTimed out 5000ms waiting for \u001b[39m\u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m()\u001b[22m\n\nLocator: getByRole('rowheader', { name: ' | 688962e66f585eb60d4e1eb1 | ' })\nExpected: visible\nReceived: <element(s) not found>\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for getByRole('rowheader', { name: ' | 688962e66f585eb60d4e1eb1 | ' })\u001b[22m\n\n\n\u001b[0m \u001b[90m 68 |\u001b[39m\n \u001b[90m 69 |\u001b[39m   \u001b[36mfor\u001b[39m (\u001b[36mconst\u001b[39m id \u001b[36mof\u001b[39m order_ids) {\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 70 |\u001b[39m     \u001b[36mawait\u001b[39m expect(page\u001b[33m.\u001b[39mgetByRole(\u001b[32m'rowheader'\u001b[39m\u001b[33m,\u001b[39m { name\u001b[33m:\u001b[39m id }))\u001b[33m.\u001b[39mtoBeVisible()\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                                                             \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 71 |\u001b[39m   }\n \u001b[90m 72 |\u001b[39m })\u001b[33m;\u001b[39m\n \u001b[90m 73 |\u001b[39m\u001b[0m\n\u001b[2m    at /Users/priyalal/TS_JS/tests/WebAPI.spec.js:70:61\u001b[22m"
+                    }
+                  ],
+                  "stdout": [
+                    {
+                      "text": "Login Response: {\n  token: \u001b[32m'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2N2Y1MDZmYmZjNzY1NDFhYWQyNTBlN2EiLCJ1c2VyRW1haWwiOiJwcml5YWxhbDI3OTJAZ21haWwuY29tIiwidXNlck1vYmlsZSI6NzA4MzM2NzUwOCwidXNlclJvbGUiOiJjdXN0b21lciIsImlhdCI6MTc1MzgzNDIwMSwiZXhwIjoxNzg1MzkxODAxfQ.uUIw3XIMLgt6YcTv7f9uLkd2qsFLXIOrJ7kMjYhepFE'\u001b[39m,\n  userId: \u001b[32m'67f506fbfc76541aad250e7a'\u001b[39m,\n  message: \u001b[32m'Login Successfully'\u001b[39m\n}\n"
+                    },
+                    {
+                      "text": "Product Titles: [ \u001b[32m'ZARA COAT 3'\u001b[39m, \u001b[32m'ADIDAS ORIGINAL'\u001b[39m, \u001b[32m'IPHONE 13 PRO'\u001b[39m ]\n"
+                    },
+                    {
+                      "text": "Order IDs: [\n  \u001b[32m' | 688962e66f585eb60d4e1eb1 | '\u001b[39m,\n  \u001b[32m' | 688962e66f585eb60d4e1eb4 | '\u001b[39m,\n  \u001b[32m' | 688962e66f585eb60d4e1eb7 | '\u001b[39m\n]\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-07-30T00:10:00.577Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "/Users/priyalal/TS_JS/test-results/tests-WebAPI-e2e/test-failed-1.png"
+                    },
+                    {
+                      "name": "error-context",
+                      "contentType": "text/markdown",
+                      "path": "/Users/priyalal/TS_JS/test-results/tests-WebAPI-e2e/error-context.md"
+                    },
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "/Users/priyalal/TS_JS/test-results/tests-WebAPI-e2e/trace.zip"
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "/Users/priyalal/TS_JS/tests/WebAPI.spec.js",
+                    "column": 61,
+                    "line": 70
+                  }
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "5a66abb7e0d74fe5fa7e-f945b62abf91dfaf5c16",
+          "file": "tests/WebAPI.spec.js",
+          "line": 23,
+          "column": 5
+        },
+        {
+          "title": "e2e_API",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 40000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 9,
+                  "parallelIndex": 0,
+                  "status": "failed",
+                  "duration": 14178,
+                  "error": {
+                    "message": "TimeoutError: page.waitForSelector: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('//tbody//tr//th') to be visible\u001b[22m\n",
+                    "stack": "TimeoutError: page.waitForSelector: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('//tbody//tr//th') to be visible\u001b[22m\n\n    at /Users/priyalal/TS_JS/tests/WebAPI.spec.js:182:16",
+                    "location": {
+                      "file": "/Users/priyalal/TS_JS/tests/WebAPI.spec.js",
+                      "column": 16,
+                      "line": 182
+                    },
+                    "snippet": "\u001b[0m \u001b[90m 180 |\u001b[39m     \n \u001b[90m 181 |\u001b[39m     \u001b[90m// Wait for the orders table to load\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 182 |\u001b[39m     \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mwaitForSelector(\u001b[32m\"//tbody//tr//th\"\u001b[39m\u001b[33m,\u001b[39m { timeout\u001b[33m:\u001b[39m \u001b[35m10000\u001b[39m })\n \u001b[90m     |\u001b[39m                \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 183 |\u001b[39m     \n \u001b[90m 184 |\u001b[39m     \u001b[36mconst\u001b[39m order_ids \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mlocator(\u001b[32m\"//tbody//tr//th\"\u001b[39m)\u001b[33m.\u001b[39mallTextContents()\u001b[33m;\u001b[39m\n \u001b[90m 185 |\u001b[39m     console\u001b[33m.\u001b[39mlog(\u001b[32m\"order_ids \"\u001b[39m\u001b[33m,\u001b[39morder_ids)\u001b[0m"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "/Users/priyalal/TS_JS/tests/WebAPI.spec.js",
+                        "column": 16,
+                        "line": 182
+                      },
+                      "message": "TimeoutError: page.waitForSelector: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('//tbody//tr//th') to be visible\u001b[22m\n\n\n\u001b[0m \u001b[90m 180 |\u001b[39m     \n \u001b[90m 181 |\u001b[39m     \u001b[90m// Wait for the orders table to load\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 182 |\u001b[39m     \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mwaitForSelector(\u001b[32m\"//tbody//tr//th\"\u001b[39m\u001b[33m,\u001b[39m { timeout\u001b[33m:\u001b[39m \u001b[35m10000\u001b[39m })\n \u001b[90m     |\u001b[39m                \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 183 |\u001b[39m     \n \u001b[90m 184 |\u001b[39m     \u001b[36mconst\u001b[39m order_ids \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mlocator(\u001b[32m\"//tbody//tr//th\"\u001b[39m)\u001b[33m.\u001b[39mallTextContents()\u001b[33m;\u001b[39m\n \u001b[90m 185 |\u001b[39m     console\u001b[33m.\u001b[39mlog(\u001b[32m\"order_ids \"\u001b[39m\u001b[33m,\u001b[39morder_ids)\u001b[0m\n\u001b[2m    at /Users/priyalal/TS_JS/tests/WebAPI.spec.js:182:16\u001b[22m"
+                    }
+                  ],
+                  "stdout": [
+                    {
+                      "text": "Login Response: {\n  token: \u001b[32m'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2N2Y1MDZmYmZjNzY1NDFhYWQyNTBlN2EiLCJ1c2VyRW1haWwiOiJwcml5YWxhbDI3OTJAZ21haWwuY29tIiwidXNlck1vYmlsZSI6NzA4MzM2NzUwOCwidXNlclJvbGUiOiJjdXN0b21lciIsImlhdCI6MTc1MzgzNDIyMSwiZXhwIjoxNzg1MzkxODIxfQ.UeLZvQZNWMjSEaCgGd4D93q0aqoTPSs07c7-mYtrZpg'\u001b[39m,\n  userId: \u001b[32m'67f506fbfc76541aad250e7a'\u001b[39m,\n  message: \u001b[32m'Login Successfully'\u001b[39m\n}\n"
+                    },
+                    {
+                      "text": "response_place_order_rponse  {\n  orders: [\n    \u001b[32m'688962ee6f585eb60d4e1ef2'\u001b[39m,\n    \u001b[32m'688962ee6f585eb60d4e1ef5'\u001b[39m,\n    \u001b[32m'688962ee6f585eb60d4e1ef8'\u001b[39m\n  ],\n  productOrderId: [\n    \u001b[32m'67a8dde5c0d3e6622a297cc8'\u001b[39m,\n    \u001b[32m'67a8df1ac0d3e6622a297ccb'\u001b[39m,\n    \u001b[32m'67a8df56c0d3e6622a297ccd'\u001b[39m\n  ],\n  message: \u001b[32m'Order Placed Successfully'\u001b[39m\n}\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-07-30T00:10:20.872Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "/Users/priyalal/TS_JS/test-results/tests-WebAPI-e2e-API/test-failed-1.png"
+                    },
+                    {
+                      "name": "error-context",
+                      "contentType": "text/markdown",
+                      "path": "/Users/priyalal/TS_JS/test-results/tests-WebAPI-e2e-API/error-context.md"
+                    },
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "/Users/priyalal/TS_JS/test-results/tests-WebAPI-e2e-API/trace.zip"
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "/Users/priyalal/TS_JS/tests/WebAPI.spec.js",
+                    "column": 16,
+                    "line": 182
+                  }
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "5a66abb7e0d74fe5fa7e-000f87f7f4ff59cc9b12",
+          "file": "tests/WebAPI.spec.js",
+          "line": 75,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "tests/WebAPIe2e.spec.js",
+      "file": "tests/WebAPIe2e.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "e2e using util class",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 40000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 8,
+                  "parallelIndex": 2,
+                  "status": "passed",
+                  "duration": 784,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "Login Response: {\n  token: \u001b[32m'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2N2Y1MDZmYmZjNzY1NDFhYWQyNTBlN2EiLCJ1c2VyRW1haWwiOiJwcml5YWxhbDI3OTJAZ21haWwuY29tIiwidXNlck1vYmlsZSI6NzA4MzM2NzUwOCwidXNlclJvbGUiOiJjdXN0b21lciIsImlhdCI6MTc1MzgzNDIxOCwiZXhwIjoxNzg1MzkxODE4fQ.JgtCI8JVKyx9PsViPuKg5CZ_DFGdJjSFsYHLJwfak0k'\u001b[39m,\n  userId: \u001b[32m'67f506fbfc76541aad250e7a'\u001b[39m,\n  message: \u001b[32m'Login Successfully'\u001b[39m\n}\n"
+                    },
+                    {
+                      "text": "response_place_order_rponse  {\n  orders: [\n    \u001b[32m'688962eb6f585eb60d4e1ed7'\u001b[39m,\n    \u001b[32m'688962eb6f585eb60d4e1eda'\u001b[39m,\n    \u001b[32m'688962eb6f585eb60d4e1edd'\u001b[39m\n  ],\n  productOrderId: [\n    \u001b[32m'67a8dde5c0d3e6622a297cc8'\u001b[39m,\n    \u001b[32m'67a8df1ac0d3e6622a297ccb'\u001b[39m,\n    \u001b[32m'67a8df56c0d3e6622a297ccd'\u001b[39m\n  ],\n  message: \u001b[32m'Order Placed Successfully'\u001b[39m\n}\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-07-30T00:10:18.209Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "af7ddb7dfb2a946907b3-3dd9b0f7a3010a8af730",
+          "file": "tests/WebAPIe2e.spec.js",
+          "line": 4,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "tests-examples/demo-todo-app.spec.js",
+      "file": "tests-examples/demo-todo-app.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "New Todo",
+          "file": "tests-examples/demo-todo-app.spec.js",
+          "line": 14,
+          "column": 6,
+          "specs": [
+            {
+              "title": "should allow me to add todo items",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 40000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 8,
+                      "parallelIndex": 2,
+                      "status": "passed",
+                      "duration": 3574,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-07-30T00:10:19.002Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/Users/priyalal/TS_JS/test-results/tests-examples-demo-todo-a-cb93c--allow-me-to-add-todo-items/test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "742531b997e3a909acfb-93f2811f99f75947e0cd",
+              "file": "tests-examples/demo-todo-app.spec.js",
+              "line": 15,
+              "column": 7
+            },
+            {
+              "title": "should clear text input field when an item is added",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 40000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 8,
+                      "parallelIndex": 2,
+                      "status": "passed",
+                      "duration": 1995,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-07-30T00:10:22.858Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/Users/priyalal/TS_JS/test-results/tests-examples-demo-todo-a-86427-field-when-an-item-is-added/test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "742531b997e3a909acfb-efc0c595ea79a1e87ba2",
+              "file": "tests-examples/demo-todo-app.spec.js",
+              "line": 41,
+              "column": 7
+            },
+            {
+              "title": "should append new items to the bottom of the list",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 40000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 8,
+                      "parallelIndex": 2,
+                      "status": "passed",
+                      "duration": 2048,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-07-30T00:10:24.855Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/Users/priyalal/TS_JS/test-results/tests-examples-demo-todo-a-de15b-s-to-the-bottom-of-the-list/test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "742531b997e3a909acfb-2ffde5e2afd8c4573bdc",
+              "file": "tests-examples/demo-todo-app.spec.js",
+              "line": 54,
+              "column": 7
+            }
+          ]
+        },
+        {
+          "title": "Mark all as completed",
+          "file": "tests-examples/demo-todo-app.spec.js",
+          "line": 73,
+          "column": 6,
+          "specs": [
+            {
+              "title": "should allow me to mark all items as completed",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 40000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 8,
+                      "parallelIndex": 2,
+                      "status": "passed",
+                      "duration": 1571,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-07-30T00:10:26.906Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/Users/priyalal/TS_JS/test-results/tests-examples-demo-todo-a-f9478-mark-all-items-as-completed/test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "742531b997e3a909acfb-fb6bd272840d1a72fc06",
+              "file": "tests-examples/demo-todo-app.spec.js",
+              "line": 83,
+              "column": 7
+            },
+            {
+              "title": "should allow me to clear the complete state of all items",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 40000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 8,
+                      "parallelIndex": 2,
+                      "status": "passed",
+                      "duration": 1551,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-07-30T00:10:28.479Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/Users/priyalal/TS_JS/test-results/tests-examples-demo-todo-a-3a74f-complete-state-of-all-items/test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "742531b997e3a909acfb-41e61996fc83d924af81",
+              "file": "tests-examples/demo-todo-app.spec.js",
+              "line": 92,
+              "column": 7
+            },
+            {
+              "title": "complete all checkbox should update state when items are completed / cleared",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 40000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 8,
+                      "parallelIndex": 2,
+                      "status": "passed",
+                      "duration": 2323,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-07-30T00:10:30.032Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/Users/priyalal/TS_JS/test-results/tests-examples-demo-todo-a-1b069-items-are-completed-cleared/test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "742531b997e3a909acfb-624eadcabe3d39e2ccf7",
+              "file": "tests-examples/demo-todo-app.spec.js",
+              "line": 102,
+              "column": 7
+            }
+          ]
+        },
+        {
+          "title": "Item",
+          "file": "tests-examples/demo-todo-app.spec.js",
+          "line": 123,
+          "column": 6,
+          "specs": [
+            {
+              "title": "should allow me to mark items as complete",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 40000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 8,
+                      "parallelIndex": 2,
+                      "status": "passed",
+                      "duration": 1448,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-07-30T00:10:32.357Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/Users/priyalal/TS_JS/test-results/tests-examples-demo-todo-a-f23ad-e-to-mark-items-as-complete/test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "742531b997e3a909acfb-7ddd0bdda45bf67b9fb8",
+              "file": "tests-examples/demo-todo-app.spec.js",
+              "line": 125,
+              "column": 7
+            },
+            {
+              "title": "should allow me to un-mark items as complete",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 40000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 8,
+                      "parallelIndex": 2,
+                      "status": "passed",
+                      "duration": 1475,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-07-30T00:10:33.808Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/Users/priyalal/TS_JS/test-results/tests-examples-demo-todo-a-7e469-o-un-mark-items-as-complete/test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "742531b997e3a909acfb-4f260a582920663714d7",
+              "file": "tests-examples/demo-todo-app.spec.js",
+              "line": 150,
+              "column": 7
+            },
+            {
+              "title": "should allow me to edit an item",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 40000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 8,
+                      "parallelIndex": 2,
+                      "status": "passed",
+                      "duration": 1712,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-07-30T00:10:35.285Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/Users/priyalal/TS_JS/test-results/tests-examples-demo-todo-a-18e17-ld-allow-me-to-edit-an-item/test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "742531b997e3a909acfb-6fca4ef54989e29d9cbe",
+              "file": "tests-examples/demo-todo-app.spec.js",
+              "line": 175,
+              "column": 7
+            }
+          ]
+        },
+        {
+          "title": "Editing",
+          "file": "tests-examples/demo-todo-app.spec.js",
+          "line": 195,
+          "column": 6,
+          "specs": [
+            {
+              "title": "should hide other controls when editing",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 40000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 8,
+                      "parallelIndex": 2,
+                      "status": "passed",
+                      "duration": 1539,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-07-30T00:10:36.998Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/Users/priyalal/TS_JS/test-results/tests-examples-demo-todo-a-136f6-other-controls-when-editing/test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "742531b997e3a909acfb-41703dde852218ae6437",
+              "file": "tests-examples/demo-todo-app.spec.js",
+              "line": 201,
+              "column": 7
+            },
+            {
+              "title": "should save edits on blur",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 40000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 8,
+                      "parallelIndex": 2,
+                      "status": "passed",
+                      "duration": 1430,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-07-30T00:10:38.539Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/Users/priyalal/TS_JS/test-results/tests-examples-demo-todo-a-c7017-g-should-save-edits-on-blur/test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "742531b997e3a909acfb-910c88fe0a9996b322f5",
+              "file": "tests-examples/demo-todo-app.spec.js",
+              "line": 211,
+              "column": 7
+            },
+            {
+              "title": "should trim entered text",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 40000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 8,
+                      "parallelIndex": 2,
+                      "status": "passed",
+                      "duration": 1499,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-07-30T00:10:39.971Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/Users/priyalal/TS_JS/test-results/tests-examples-demo-todo-a-f1b93-ng-should-trim-entered-text/test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "742531b997e3a909acfb-7e361421adfdf40737e0",
+              "file": "tests-examples/demo-todo-app.spec.js",
+              "line": 225,
+              "column": 7
+            },
+            {
+              "title": "should remove the item if an empty text string was entered",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 40000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 8,
+                      "parallelIndex": 2,
+                      "status": "passed",
+                      "duration": 1437,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-07-30T00:10:41.471Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/Users/priyalal/TS_JS/test-results/tests-examples-demo-todo-a-3f7df-pty-text-string-was-entered/test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "742531b997e3a909acfb-3d5e13d16804b129538f",
+              "file": "tests-examples/demo-todo-app.spec.js",
+              "line": 239,
+              "column": 7
+            },
+            {
+              "title": "should cancel edits on escape",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 40000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 8,
+                      "parallelIndex": 2,
+                      "status": "passed",
+                      "duration": 1476,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-07-30T00:10:42.910Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/Users/priyalal/TS_JS/test-results/tests-examples-demo-todo-a-b0dfe-ould-cancel-edits-on-escape/test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "742531b997e3a909acfb-8b2e841cf1ff424f0eb5",
+              "file": "tests-examples/demo-todo-app.spec.js",
+              "line": 251,
+              "column": 7
+            }
+          ]
+        },
+        {
+          "title": "Counter",
+          "file": "tests-examples/demo-todo-app.spec.js",
+          "line": 260,
+          "column": 6,
+          "specs": [
+            {
+              "title": "should display the current number of todo items",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 40000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 8,
+                      "parallelIndex": 2,
+                      "status": "passed",
+                      "duration": 1400,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-07-30T00:10:44.388Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/Users/priyalal/TS_JS/test-results/tests-examples-demo-todo-a-decb7-urrent-number-of-todo-items/test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "742531b997e3a909acfb-7cf18b267d97541a706d",
+              "file": "tests-examples/demo-todo-app.spec.js",
+              "line": 261,
+              "column": 7
+            }
+          ]
+        },
+        {
+          "title": "Clear completed button",
+          "file": "tests-examples/demo-todo-app.spec.js",
+          "line": 280,
+          "column": 6,
+          "specs": [
+            {
+              "title": "should display the correct text",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 40000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 8,
+                      "parallelIndex": 2,
+                      "status": "passed",
+                      "duration": 1475,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-07-30T00:10:45.789Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/Users/priyalal/TS_JS/test-results/tests-examples-demo-todo-a-a043b-ld-display-the-correct-text/test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "742531b997e3a909acfb-ec2618db81831360a13e",
+              "file": "tests-examples/demo-todo-app.spec.js",
+              "line": 285,
+              "column": 7
+            },
+            {
+              "title": "should remove completed items when clicked",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 40000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 8,
+                      "parallelIndex": 2,
+                      "status": "passed",
+                      "duration": 1424,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-07-30T00:10:47.266Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/Users/priyalal/TS_JS/test-results/tests-examples-demo-todo-a-e3f41-ompleted-items-when-clicked/test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "742531b997e3a909acfb-836b9801d70d4ff1a546",
+              "file": "tests-examples/demo-todo-app.spec.js",
+              "line": 290,
+              "column": 7
+            },
+            {
+              "title": "should be hidden when there are no items that are completed",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 40000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 8,
+                      "parallelIndex": 2,
+                      "status": "passed",
+                      "duration": 1464,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-07-30T00:10:48.692Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/Users/priyalal/TS_JS/test-results/tests-examples-demo-todo-a-8ddc4-no-items-that-are-completed/test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "742531b997e3a909acfb-1be4a56286828d279da3",
+              "file": "tests-examples/demo-todo-app.spec.js",
+              "line": 298,
+              "column": 7
+            }
+          ]
+        },
+        {
+          "title": "Persistence",
+          "file": "tests-examples/demo-todo-app.spec.js",
+          "line": 305,
+          "column": 6,
+          "specs": [
+            {
+              "title": "should persist its data",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 40000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 8,
+                      "parallelIndex": 2,
+                      "status": "passed",
+                      "duration": 1746,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-07-30T00:10:50.158Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/Users/priyalal/TS_JS/test-results/tests-examples-demo-todo-a-ebbe1-nce-should-persist-its-data/test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "742531b997e3a909acfb-0af176c32bf4324d66c3",
+              "file": "tests-examples/demo-todo-app.spec.js",
+              "line": 306,
+              "column": 7
+            }
+          ]
+        },
+        {
+          "title": "Routing",
+          "file": "tests-examples/demo-todo-app.spec.js",
+          "line": 333,
+          "column": 6,
+          "specs": [
+            {
+              "title": "should allow me to display active items",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 40000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 8,
+                      "parallelIndex": 2,
+                      "status": "passed",
+                      "duration": 1508,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-07-30T00:10:51.906Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/Users/priyalal/TS_JS/test-results/tests-examples-demo-todo-a-64101--me-to-display-active-items/test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "742531b997e3a909acfb-2eabba6dd660277b9932",
+              "file": "tests-examples/demo-todo-app.spec.js",
+              "line": 342,
+              "column": 7
+            },
+            {
+              "title": "should respect the back button",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 40000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 8,
+                      "parallelIndex": 2,
+                      "status": "passed",
+                      "duration": 1716,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "steps": [
+                        {
+                          "title": "Showing all items",
+                          "duration": 71
+                        },
+                        {
+                          "title": "Showing active items",
+                          "duration": 64
+                        },
+                        {
+                          "title": "Showing completed items",
+                          "duration": 59
+                        }
+                      ],
+                      "startTime": "2025-07-30T00:10:53.415Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/Users/priyalal/TS_JS/test-results/tests-examples-demo-todo-a-7cf8c-uld-respect-the-back-button/test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "742531b997e3a909acfb-49233ece5f6b424c2ca4",
+              "file": "tests-examples/demo-todo-app.spec.js",
+              "line": 352,
+              "column": 7
+            },
+            {
+              "title": "should allow me to display completed items",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 40000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 8,
+                      "parallelIndex": 2,
+                      "status": "passed",
+                      "duration": 1517,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-07-30T00:10:55.133Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/Users/priyalal/TS_JS/test-results/tests-examples-demo-todo-a-4151f--to-display-completed-items/test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "742531b997e3a909acfb-67993787d95814f0328e",
+              "file": "tests-examples/demo-todo-app.spec.js",
+              "line": 378,
+              "column": 7
+            },
+            {
+              "title": "should allow me to display all items",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 40000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 8,
+                      "parallelIndex": 2,
+                      "status": "passed",
+                      "duration": 1595,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-07-30T00:10:56.651Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/Users/priyalal/TS_JS/test-results/tests-examples-demo-todo-a-4b396-low-me-to-display-all-items/test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "742531b997e3a909acfb-1e6658aca258d1c4fea0",
+              "file": "tests-examples/demo-todo-app.spec.js",
+              "line": 385,
+              "column": 7
+            },
+            {
+              "title": "should highlight the currently applied filter",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 40000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 8,
+                      "parallelIndex": 2,
+                      "status": "passed",
+                      "duration": 1515,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-07-30T00:10:58.248Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/Users/priyalal/TS_JS/test-results/tests-examples-demo-todo-a-ae530-he-currently-applied-filter/test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "742531b997e3a909acfb-535fac5a8b389d9b433b",
+              "file": "tests-examples/demo-todo-app.spec.js",
+              "line": 394,
+              "column": 7
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2025-07-30T00:07:51.571Z",
+    "duration": 212103.203,
+    "expected": 58,
+    "skipped": 3,
+    "unexpected": 8,
+    "flaky": 0
+  }
+}
